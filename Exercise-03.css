@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
